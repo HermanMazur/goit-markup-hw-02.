@@ -58,10 +58,10 @@ color: #757575;
 .header-mail:focus,
 .header-tel:hover,
 .header-tel:focus {
-    color: var(--accent-color);
+color: var(--accent-color);
 }
 
-.hero-item-btn{
+.hero-item-btn {
 font-family: inherit;
 font-weight: 500;
 font-size: 16px;
@@ -71,8 +71,14 @@ color: var(--first-color-text);
 cursor: pointer
 }
 
+.hero-item-btn:hover,
+.hero-item-btn:focus {
+color: var(--third-color-text);
+background-color: var(--accent-color);
+}
+
 .hero-item-btn-all {
-    font-family: inherit;
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
@@ -98,6 +104,9 @@ color: var(--second-color-text);
 }
 
 /*==============HERO Comand==============*/
+.current {
+    color: var(--accent-color);
+}
 
 .comand {
 background-color: #2F303A;
